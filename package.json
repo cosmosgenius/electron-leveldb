@@ -1,0 +1,30 @@
+{
+  "name": "electron-leveldb",
+  "version": "0.0.0",
+  "description": "Sample electron leveldb app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron app",
+    "postinstall": "install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmosgenius/electron-leveldb.git"
+  },
+  "author": "Sharat M R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosmosgenius/electron-leveldb/issues"
+  },
+  "homepage": "https://github.com/cosmosgenius/electron-leveldb#readme",
+  "devDependencies": {
+    "electron-builder": "^5.26.0",
+    "electron-prebuilt": "^1.3.3"
+  },
+  "build": {
+    "appId": "com.cosmosgenius.sampleelectronleveldb",
+    "app-category-type": "public.app-category.developer-tools",
+    "asar": false
+  }
+}
